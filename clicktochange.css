@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.error{
+    outline: none;
+    border: 1px solid red;
+  
+}
+.ptag,.pt{
+    color: red;
+    font-size: small;
+}
+.d-none {
+    display: none;
+}
+.Na{
+    visibility: visible;
+    outline: none;
+    border: 1px solid red;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+  padding: 40px;
+    background-color: rgb(245, 245, 245);
+    border: 2px solid  blue;
+    border-radius: 10px;
+    display: none;
+}
+input{
+    padding: 6px;
+    outline: none;
+ border-radius: 10px; 
+ border: none;
+ 
+}
+.password,.username{
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+}
+.login{
+    text-align: center;
+    text-decoration: underline solid blue ;
+    color: blue;
+}
+sup{
+color: red;
+font-size:15px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+
+}
+.close {
+    display: "none";
+    padding: 5px;
+    margin-left: 250px;
+  
+}
+.close:hover {
+    background-color: rgb(236, 232, 232);
+
+    cursor: pointer;
+}
+.submit{
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: whitesmoke;
+    font-size: larger;
+    
+}
+button:hover{
+    background-color:whitesmoke;
+    color: blue;
+    border: 0.5px solid blue;
+    cursor: pointer;
+    
+}
+.form{
+    margin-top:40px ;
+}
+.open{
+    margin-right: 600px;
+    margin-bottom: 500px;
+    padding: 5px;
+    width: 4rem;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    color: whitesmoke;
+}

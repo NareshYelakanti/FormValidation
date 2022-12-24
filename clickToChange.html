@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./clicktochange.css" />
+  </head>
+  <body class="overlay">
+    <button class="open">login</button>
+    <div class="container">
+      <span class="close">X</span>
+      <div class="login">
+        <h2>Login</h2>
+      </div>
+      <form action="some" class="form">
+        <div class="username">
+          <label>username<sup>*</sup></label>
+          <input type="text" size="30px" name="user" class="user" />
+          <p class="ptag d-none">please enter user name</p>
+        </div>
+        <br />
+        <div class="password">
+          <label>password<sup>*</sup></label>
+          <input type="password" size="30px" name="pass" class="pass" />
+          <p class="pt d-none">please enter password</p>
+        </div>
+        <br />
+        <button class="submit">Submit</button>
+        <p>forgot password</p>
+      </form>
+    </div>
+    <script src="./clicktochange.js"></script>
+  </body>
+</html>
